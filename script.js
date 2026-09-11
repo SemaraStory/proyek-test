@@ -1,1 +1,1 @@
-console.log("Proyek Test siap!");
+const button=document.querySelector('#rsvpButton');const message=document.querySelector('#rsvpMessage');button?.addEventListener('click',()=>{message.textContent='Terima kasih! Kehadiran Anda sangat berarti bagi kami.';button.textContent='Kehadiran Terkonfirmasi';button.disabled=true;});
