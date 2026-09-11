@@ -3,15 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proyek Test</title>
+    <meta name="theme-color" content="#7c2d2d" />
+    <title>Undangan Pernikahan | Ayu & Kadek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="prelude" aria-hidden="true"></div>
     <main>
-      <h1>Proyek Test</h1>
-      <p>Halo, dunia!</p>
+      <section class="hero" id="beranda">
+        <div class="ornament ornament-top">✦</div>
+        <p class="eyebrow">Om Swastiastu</p>
+        <p class="invite-copy">Dengan penuh kebahagiaan, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dalam upacara pernikahan kami</p>
+        <h1>Ayu <span>&amp;</span> Kadek</h1>
+        <div class="divider"><span></span>❋<span></span></div>
+        <p class="date">Minggu, 26 Januari 2027</p>
+        <a class="scroll-link" href="#acara">Lihat Detail Acara <span>↓</span></a>
+        <div class="ornament ornament-bottom">❖</div>
+      </section>
+
+      <section class="intro section-pad">
+        <p class="kicker">Pawiwahan</p>
+        <h2>Merayakan cinta<br />dalam harmoni Bali</h2>
+        <p class="lead">Atas anugerah Ida Sang Hyang Widhi Wasa, kami akan melangsungkan upacara pernikahan dan memohon doa restu untuk perjalanan baru kami.</p>
+        <div class="couple-grid">
+          <article class="person">
+            <div class="portrait portrait-ayu"><span>✿</span></div>
+            <h3>Ni Luh Ayu</h3>
+            <p>Putri dari<br />Bapak I Made Dharma &amp; Ibu Ni Ketut Sari</p>
+          </article>
+          <div class="ampersand">&amp;</div>
+          <article class="person">
+            <div class="portrait portrait-kadek"><span>✿</span></div>
+            <h3>I Kadek Wijaya</h3>
+            <p>Putra dari<br />Bapak Wayan Putra &amp; Ibu Komang Lestari</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="event section-pad" id="acara">
+        <div class="event-pattern" aria-hidden="true">✦</div>
+        <p class="kicker light">Rangkaian Acara</p>
+        <h2>Hari bahagia kami</h2>
+        <div class="event-card">
+          <p class="event-label">Upacara Pawiwahan</p>
+          <h3>Minggu, 26 Januari 2027</h3>
+          <p>10.00 WITA – selesai</p>
+          <div class="line"></div>
+          <p class="venue">Puri Agung Ubud</p>
+          <p class="address">Jl. Raya Ubud No. 1, Gianyar, Bali</p>
+          <a class="button" target="_blank" rel="noreferrer" href="https://maps.google.com/?q=Ubud,Bali">Buka Peta Lokasi</a>
+        </div>
+      </section>
+
+      <section class="quote section-pad">
+        <div class="quote-mark">“</div>
+        <blockquote>Seperti dua bunga yang tumbuh berdampingan, kami memilih untuk saling menguatkan dan bertumbuh bersama.</blockquote>
+        <p>— Ayu &amp; Kadek</p>
+      </section>
+
+      <section class="rsvp section-pad" id="rsvp">
+        <p class="kicker">Kehadiran Anda</p>
+        <h2>Doa restu Anda<br />adalah hadiah terindah</h2>
+        <p class="lead">Mohon konfirmasi kehadiran agar kami dapat menyambut Anda dengan hangat.</p>
+        <button class="button button-dark" id="rsvpButton" type="button">Konfirmasi Kehadiran</button>
+        <p class="rsvp-message" id="rsvpMessage" aria-live="polite"></p>
+      </section>
     </main>
+    <footer>
+      <div>❖</div>
+      <p>Terima kasih atas doa dan kehadiran Anda</p>
+      <strong>Ayu &amp; Kadek</strong>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
-
